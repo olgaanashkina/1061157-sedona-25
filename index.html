@@ -74,7 +74,25 @@
           <section class="hotel-search">
             <h2 class="title-hotel-search">Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-            <!-- Здесь будет форма поиска -->
+            <form class="hotel-search-form" action="index.html" method="post">
+                <p>
+                    <label for="search-arrival-date">Дата заезда:</label>
+                    <input id="search-arrival-date" type="data" name="arrival-date" value="" placeholder="24 апреля 2017">
+                </p>
+                <p>
+                    <label for="search-departure-data">Дата выезда:</label>
+                    <input id="search-departure-data" type="data" name="departure-data" value="" placeholder="4 июля 2017">
+                </p>
+                <p>
+                    <label for="search-number-adults">Взрослые:</label>
+                    <input id="search-number-adults" type="number" name="number-adults" value="" min="1" max="100" step="1" placeholder="2">
+                </p>
+                <p>
+                    <label for="search-number-children">Дети:</label>
+                    <input id="search-number-children" type="number" name="number-children" value="" min="1" max="100" step="1" placeholder="0">
+                </p>
+                <button type="submit" name="search-button">Найти</button>
+            </form>
           </section>
           <div class="map">
             <img src="img/map.jpg" width="1200" height="594" alt="Карта Седоны">
