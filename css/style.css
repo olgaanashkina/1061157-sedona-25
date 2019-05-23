@@ -24,7 +24,6 @@ body {
     text-decoration: none;
  }
 
-
  .main-navigation {
     font-size: 14px;
     line-height: 26px;
@@ -54,7 +53,6 @@ body {
     color: #766357;
  }
 
-
  .welcome {
     background-color: #ffffff;
     background-image: url("img/bg-photo.jpg");
@@ -81,4 +79,15 @@ body {
  }
  .why-sedona h2 {
     font-size: 21px;
+ }
+
+ .hotel-search h2 {
+     font-size: 30px;
+     line-height: 36px;
+ }
+
+ .why-sedona p,
+ .hotel-search p {
+   font-weight: normal;
+   color: #333333;
  }
