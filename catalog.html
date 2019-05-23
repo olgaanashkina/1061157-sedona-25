@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+      <div class="unit">
       <header class="main-header">
          <nav class="main-navigation">
             <a class="main-header-logo" href="index.html">
@@ -60,8 +61,8 @@
                             </li>
                         </ul>
                 </fieldset>
-                <div>
-                    <label for="price-day">Стоимость в сутки (Р):</label>
+                <div class="price">
+                    <label class="price-day" for="price-day">Стоимость в сутки (Р):</label>
                     <span class="filter-price">От 0</span>
                     <input id="price-day" type="range" name="price-day" min="0" max="3000" step="1">
                     <span class="filter-price">До 3000</span>
@@ -79,11 +80,11 @@
                         <img src="img/hotel-amara-resort.jpg" width="135" height="90" alt="Amara Resort & Spa">
                         <div class="detail-hotel">
                             <span class="type-housing">Гостиница</span>
-                            <a class="button-detail-hotel" href="#">Подробнее</a>
+                            <a class="button-hotel" href="#">Подробнее</a>
                         </div>
-                        <div class="price-hotel">
-                            <span class="price">от 4000 Р.</span>
-                            <a class="button-book-hotel" href="#">Забронировать</a>
+                        <div class="value-hotel">
+                            <span class="value">от 4000 Р.</span>
+                            <a class="button-hotel book" href="#">Забронировать</a>
                         </div>
                         <div class="category-hotels">
                             <span class="category-stars" aria-label="Категория гостиницы - четыре звезды">★ ★ ★ ★</span>
@@ -97,11 +98,11 @@
                         <img src="img/hotel-desert-quail.jpg" width="135" height="90" alt="Amara Resort & Spa">
                     <div class="detail-hotel">
                         <span class="type-housing">Мотель</span>
-                        <a class="button-detail-hotel" href="#">Подробнее</a>
+                        <a class="button-hotel" href="#">Подробнее</a>
                     </div>
-                    <div class="price-hotel">
-                        <span class="price">от 3000 Р.</span>
-                        <a class="button-book-hotel" href="#">Забронировать</a>
+                    <div class="value-hotel">
+                        <span class="value">от 3000 Р.</span>
+                        <a class="button-hotel book" href="#">Забронировать</a>
                     </div>
                     <div class="category-hotels">
                         <span class="category-stars" aria-label="Категория гостиницы - три звезды">★ ★ ★</span>
@@ -115,11 +116,11 @@
                         <img src="img/hotel-villas-poco-diablo.jpg" width="135" height="90" alt="Amara Resort & Spa">
                     <div class="detail-hotel">
                         <span class="type-housing">Апараменты</span>
-                        <a class="button-detail-hotel" href="#">Подробнее</a>
+                        <a class="button-hotel" href="#">Подробнее</a>
                     </div>
-                    <div class="price-hotel">
-                        <span class="price">от 2000 Р.</span>
-                        <a class="button-book-hotel" href="#">Забронировать</a>
+                    <div class="value-hotel">
+                        <span class="value">от 2000 Р.</span>
+                        <a class="button-hotel book" href="#">Забронировать</a>
                     </div>
                     <div class="">
                         <span class="category-stars" aria-label="Категория гостиницы - две звезды">★ ★</span>
@@ -132,7 +133,7 @@
       <footer class="main-footer">
         <p class="hashtag-Visitsedona">#Visitsedona</p>
         <div class="footer-social">
-            <ul>
+            <ul class="social">
                 <li><a class="social-button" href="#">Твиттер</a></li>
                 <li><a class="social-button" href="#">Фейсбук</a></li>
                 <li><a class="social-button" href="#">Ютьюб</a></li>
@@ -145,5 +146,6 @@
             </a>
         </div>
       </footer>
+    </div>
   </body>
 </html>
