@@ -91,3 +91,41 @@ body {
    font-weight: normal;
    color: #333333;
  }
+
+ .five-reasons {
+    text-align: center;
+ }
+
+ .five-reasons h3 {
+     font-size: 21px;
+ }
+
+ .five-reasons p {
+     font-size: 14px;
+     font-weight: normal;
+ }
+
+ .main-reasons {
+     color: #ffffff;
+     background-color: #81b3d2;
+ }
+
+ .services-sedona {
+     list-style: none;
+     background-color: #ffffff;
+ }
+
+ .services-sedona h4 {
+     font-size: 21px;
+     color: #000000;
+ }
+
+ .services-sedona p {
+     font-size: 14px;
+     font-weight: normal;
+     color: #333333;
+ }
+
+ .other-reasons {
+     background-color: #eeeeee;
+ }
