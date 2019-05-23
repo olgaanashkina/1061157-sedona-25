@@ -82,14 +82,14 @@ body {
  }
 
  .hotel-search h2 {
-     font-size: 30px;
-     line-height: 36px;
+    font-size: 30px;
+    line-height: 36px;
  }
 
  .why-sedona p,
  .hotel-search p {
-   font-weight: normal;
-   color: #333333;
+    font-weight: normal;
+    color: #333333;
  }
 
  .five-reasons {
@@ -97,35 +97,94 @@ body {
  }
 
  .five-reasons h3 {
-     font-size: 21px;
+    font-size: 21px;
  }
 
  .five-reasons p {
-     font-size: 14px;
-     font-weight: normal;
+    font-size: 14px;
+    font-weight: normal;
  }
 
  .main-reasons {
-     color: #ffffff;
-     background-color: #81b3d2;
+    color: #ffffff;
+    background-color: #81b3d2;
  }
 
  .services-sedona {
-     list-style: none;
-     background-color: #ffffff;
+    list-style: none;
+    background-color: #ffffff;
  }
 
  .services-sedona h4 {
-     font-size: 21px;
-     color: #000000;
+    font-size: 21px;
+    color: #000000;
  }
 
  .services-sedona p {
-     font-size: 14px;
-     font-weight: normal;
-     color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
  }
 
  .other-reasons {
-     background-color: #eeeeee;
+    background-color: #eeeeee;
+ }
+
+ .button {
+    font: inherit;
+
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #81b3d2;
+    border: none;
+ }
+
+ .button:hover,
+ .button:focus {
+    background-color: #669ec0;
+ }
+
+ .button:active {
+    color: rgba 255 255 255, 0.3;
+    background-color: #5496bd;
+ }
+
+ .modal-search {
+    background-color: #766357;
+ }
+
+ .modal-search:hover,
+ .modal-search:focus {
+    background-color: #604e43;
+ }
+
+ .modal-search:active {
+    background-color: #503e33;
+ }
+
+ .model-search-form {
+    background-color: #ffffff;
+ }
+
+ .hotel-search-form input {
+    font: inherit;
+    border: none;
+    background-color: #f2f2f2;
+ }
+
+ .calendar {
+    background-image: url("img/calendar.svg");
+ }
+
+ .hotel-search-form input:hover {
+    background-color: #ebebeb;
+ }
+
+ .hotel-search-form input:focus {
+    border: solid 2px #e5e5e5;
+    background-color: #ffffff;
  }
