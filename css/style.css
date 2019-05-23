@@ -189,6 +189,40 @@ body {
     background-color: #ffffff;
  }
 
+ .filters {
+    сolor: #ffffff;
+    background-color: #81b3d2;
+    background-image: url("img/filter-bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+ }
+
+ .filters legend,
+ .price-day {
+    font-size: 16px;
+ }
+
+ .filters fieldset {
+    border: none;
+ }
+
+ .price span {
+    font-size: 14px;
+ }
+
+ .filter-button {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: border: solid 2px #ffffff;
+ }
+
+
+
 
 
  .main-footer {
