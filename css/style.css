@@ -221,10 +221,78 @@ body {
     border: border: solid 2px #ffffff;
  }
 
+ .catalog-list {
+   list-style: none;
+ }
 
+ .catalog-item h3 {
+   font-size: 21px;
+   line-height: 26px;
+   color: #000000;
+ }
 
+ .catalog-item h3:hover {
+    color: #81b3d2;
+ }
 
+ .catalog-item h3:active {
+    color: rgba 0 0 0, 0.3;
+ }
 
+ .type-housing,
+ .value {
+    color: #333333;
+ }
+
+ .button-hotel {
+    font: inherit;
+
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #81b3d2;
+    border: none;
+ }
+
+ .button-hotel:hover {
+    background-color: #669ec0;
+ }
+
+ .button-hotel:active {
+    color: rgba 255 255 255, 0.3;
+    background-color: #5496bd;
+ }
+
+ .book {
+    background-color: #766357;
+ }
+
+ .book:hover {
+    background-color: #604e43;
+ }
+
+ .book:active {
+    color: rgba 255 255 255, 0.3;
+    background-color: #503e33;
+ }
+
+ .category-stars {
+    color: #81b3d2;
+ }
+
+ .rating {
+    font: inherit;
+
+    text-align: center;
+    color: #666666;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border: none;
+ }
+ 
  .main-footer {
     text-align: center;
     background-color: #ffffff;
