@@ -53,3 +53,32 @@ body {
  .site-navigation-current a {
     color: #766357;
  }
+
+
+ .welcome {
+    background-color: #ffffff;
+    background-image: url("img/bg-photo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+ }
+
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+
+ .why-sedona,
+ .hotel-search {
+    text-align: center;
+    line-height: 26px;
+    background-color: #ffffff;
+ }
+ .why-sedona h2 {
+    font-size: 21px;
+ }
