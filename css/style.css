@@ -188,3 +188,40 @@ body {
     border: solid 2px #e5e5e5;
     background-color: #ffffff;
  }
+
+
+
+ .main-footer {
+    text-align: center;
+    background-color: #ffffff;
+ }
+
+ .main-footer p {
+    font-size: 21px;
+    line-height: 26px;
+ }
+
+ .footer-social ul {
+    list-style: none;
+ }
+
+ .social a {
+    color: #ffffff;
+    background-color: #81b3d2;
+ }
+
+ .social a:hover,
+ .social a:focus {
+    background-color: #669ec0;
+ }
+
+ .social a:active {
+    background-color: #5496bd;
+ }
+
+ .footer-copiright {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    vertical-align: middle;
+ }
