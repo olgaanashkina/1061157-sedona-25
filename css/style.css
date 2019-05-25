@@ -151,7 +151,7 @@ body {
  }
 
  .button:active {
-    color: rgba 255 255 255, 0.3;
+    color: rgba (255 255 255, 0.3);
     background-color: #5496bd;
  }
 
@@ -240,7 +240,7 @@ body {
  }
 
  .catalog-item h3:active {
-    color: rgba 0 0 0, 0.3;
+    color: rgba (0 0 0, 0.3);
  }
 
  .type-housing,
@@ -264,7 +264,7 @@ body {
  }
 
  .button-hotel:active {
-    color: rgba 255 255 255, 0.3;
+    color: rgba (255 255 255, 0.3);
     background-color: #5496bd;
  }
 
@@ -277,7 +277,7 @@ body {
  }
 
  .book:active {
-    color: rgba 255 255 255, 0.3;
+    color: rgba (255 255 255, 0.3);
     background-color: #503e33;
  }
 
