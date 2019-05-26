@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
     padding: 0;
 
@@ -14,10 +14,33 @@ body {
 
  .unit {
     width: 1200px;
-    height: 2762px;
-    background-color: #ffffff;
+    min-height: 2762px;
     margin: 0 auto;
     box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+    background-color: #ffffff;
+    background-image: url("../img/bg-photo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+ }
+
+ .main-header {
+    margin-bottom: 61px;
+ }
+
+ .main-header-logo {
+    width: 140px;
+    height: 71px;
+ }
+
+ .site-navigation {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
  }
 
  a {
@@ -31,7 +54,6 @@ body {
     background-color: #ffffff;
  }
 
- .site-navigation,
  .hotel-search {
     list-style: none;
  }
@@ -54,10 +76,7 @@ body {
  }
 
  .welcome {
-    background-color: #ffffff;
-    background-image: url("../img/bg-photo.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
+    background-color: transparent;
  }
 
  .visually-hidden {
@@ -330,3 +349,18 @@ body {
     font-weight: normal;
     vertical-align: middle;
  }
+
+/*Для сетки*/
+html,
+body {
+  min-width: 1200px;
+  min-height: 2762px;
+}
+
+.main-header {
+    margin-bottom: 61px;
+
+    /*временно*/
+    outline: red;
+    min-height: 71px;
+}
