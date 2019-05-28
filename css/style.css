@@ -23,6 +23,12 @@
     background-repeat: no-repeat;
  }
 
+ .unit-catalog {
+    background-image: none;
+    /*background-position: top center;
+    background-repeat: no-repeat;*/
+ }
+
  .main-header {
     margin-bottom: 61px;
  }
@@ -305,6 +311,8 @@
  }
 
  .filters {
+    margin: 0;
+    margin-bottom: 115px;
     сolor: #ffffff;
     background-color: #81b3d2;
     background-image: url("../img/filter-bg.jpg");
@@ -339,6 +347,41 @@
  .catalog-list {
    list-style: none;
  }
+
+ .catalog-item {
+    width: 1120px;
+    padding: 30px 70px;
+    display: flex;
+    align-items: flex-start;
+ }
+
+ .catalog-image {
+    width: 135px;
+    min-height: 90px;
+    margin: 0;
+    padding-right: 30px;
+    order: -1;
+ }
+
+ .detail-hotel-container {
+    width: 260px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+ }
+
+  .category-hotels {
+    width: 110px;
+    padding-left: 520px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-value-container {
+    margin: 0;
+    display: flex;
+    flex-direction:
+  }
 
  .catalog-item h3 {
    font-size: 21px;
