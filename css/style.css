@@ -14,13 +14,9 @@
 
  .unit {
     width: 1200px;
-    min-height: 2762px;
     margin: 0 auto;
     box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
     background-color: #ffffff;
-    background-image: url("../img/bg-photo.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
  }
 
  .unit-catalog {
@@ -88,12 +84,19 @@
     color: #766357;
  }
 
+ .welcome-container {
+    margin: 0;
+    padding: 0;
+    background-color: #d6e7f2;
+    background-image: url("../img/bg-photo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+ }
+
  .welcome {
     width: 460px;
     margin: 0 auto;
-    margin-top: 71px;
-    margin-bottom: 76px;
-    background-color: transparent;
+    padding: 75px 0;
  }
 
  .visually-hidden {
