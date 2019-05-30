@@ -28,23 +28,24 @@
  }
 
  .main-header {
-    margin-bottom: 61px;
- }
-
- .main-header-logo {
-    width: 140px;
-    height: 71px;
+    margin-bottom: px;
  }
 
  .site-navigation {
     margin: 0;
-    padding: 0;
-
+    padding: 20px 70px;
     list-style: none;
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+ }
+
+ .site-navigation li:nth-child(2) {
+    margin-right: 240px;
+ }
+
+ .site-navigation a {
+    padding: 10px;
  }
 
  a {
@@ -52,10 +53,18 @@
  }
 
  .main-navigation {
+    position: relative;
     font-size: 14px;
     line-height: 26px;
     color: #000000;
     background-color: #ffffff;
+ }
+ .main-header-logo {
+    position: absolute;
+    top: 0;
+    left: 530px;
+    width: 140px;
+    height: 71px;
  }
 
  .hotel-search {
@@ -82,8 +91,9 @@
  .welcome {
     width: 460px;
     margin: 0 auto;
-    background-color: transparent;
+    margin-top: 71px;
     margin-bottom: 76px;
+    background-color: transparent;
  }
 
  .visually-hidden {
