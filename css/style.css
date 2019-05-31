@@ -61,6 +61,7 @@
     left: 530px;
     width: 140px;
     height: 71px;
+    z-index: 100;
  }
 
  .hotel-search {
@@ -85,7 +86,7 @@
  }
 
  .welcome-container {
-    /*position: relative;*/
+    position: relative;
     margin: 0;
     padding: 0;
     background-color: #d6e7f2;
@@ -98,6 +99,16 @@
     width: 460px;
     margin: 0 auto;
     padding: 75px 0;
+ }
+
+ .welcome::after {
+    content: " ";
+    position: absolute;
+    width: 1200px;
+    min-height: 59px;
+    bottom: -1px;
+    left: 0;
+    background: url("../img/main-mask.png");
  }
 
  .visually-hidden {
