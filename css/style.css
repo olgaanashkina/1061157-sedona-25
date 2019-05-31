@@ -174,9 +174,12 @@
  .main-reasons {
     width: 1200px;
     display: flex;
-    justify-content: space-between;
     color: #ffffff;
     background-color: #81b3d2;
+ }
+
+ .reasons-foto {
+    object-fit: cover;
  }
 
  .bridge {
@@ -185,39 +188,82 @@
 
  .main-reasons-container {
     width: 400px;
+    margin: 0;
+    padding: 0;
  }
 
- .main-reasons-wrapper {
-    width: 280px;
-    margin: 0 auto;
+ .main-reasons-wrapper{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 45px;
+ }
+
+ .main-reasons-caption {
+    margin: 0;
+    padding: 5px 10px;
+    width: 180px;
+ }
+
+ .main-reasons-item {
+   margin-top: 10px;
+   margin-bottom: 0;
+   padding: 5px 10px;
+ }
+
+ .main-reasons-report {
+    width: 300px;
+    margin-top: 0;
+    padding: 5px 10px;
+ }
+
+ .report-bridge {
+    width: 325px;
  }
 
  .services-sedona {
-    padding: 60px 60px 85px 70px;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: #ffffff;
  }
 
  .services {
-    width: 290px;
+    width: 310px;
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 85px;
+    padding-top: 75px;
+    background-position: top center;
+    background-repeat: no-repeat;
+ }
+
+ .service-housing {
+    background-image: url("../img/icon-housing.svg");
+ }
+
+ .services-food {
+    background-image: url("../img/icon-food.svg");
+ }
+
+ .services-souvenirs {
+    background-image: url("../img/icon-souvenirs.svg");
  }
 
  .services-sedona h4 {
     font-size: 21px;
     color: #000000;
+    padding: 0 10px;
  }
 
  .services-sedona p {
     font-size: 14px;
     font-weight: normal;
     color: #333333;
+    margin: 0;
+    padding: 0 10px;
  }
 
  .other-reasons-container {
