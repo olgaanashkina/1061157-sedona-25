@@ -29,15 +29,20 @@
 
  .site-navigation {
     margin: 0;
-    padding: 20px 70px;
+    padding: 20px 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
  }
 
+ .site-navigation li {
+    width: 239px;
+    text-align: center;
+ }
+
  .site-navigation li:nth-child(2) {
-    margin-right: 240px;
+    margin-right: auto;
  }
 
  a {
