@@ -601,20 +601,29 @@
  }
 
  .main-footer {
-    margin-top: 35px;
-    padding-left: 130px;
-    padding-right: 100px;
+    width: 1200px;
+    margin-top: 75px;
+    padding: 36px 0;
+    display: flex;
     text-align: center;
     background-color: #ffffff;
  }
 
  .main-footer p {
+    width: 400px;
+    margin: 0;
     font-size: 21px;
     line-height: 26px;
  }
 
  .footer-social ul {
     list-style: none;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
  }
 
  .social a {
@@ -644,26 +653,58 @@
     margin: 0;
  }
 
- .main-footer-container {
-    display: flex;
- }
-
  .social {
     list-style: none;
     margin: 0;
-    display: flex;
+    width: 400px;;
+    padding: 0 10px;
  }
 
  .hashtag-visitsedona {
-    width: 135px;
-    margin-right: 270px;
+    width: 400px;
+    padding: 20px 0;
  }
 
- .footer-social {
-    width: 140px;
+  .footer-social {
+    width: 400px;
+    padding: 0 10px;
+    display: inline;
+ }
+
+ .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 48px;
+ }
+
+ .social-button:active path {
+    opacity: 0.3;
  }
 
  .footer-copiright {
-    width: 200px;
-    margin-left: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+ }
+
+ .footer-copiright span {
+    margin-right: 5px;
+ }
+
+ .copiright-logo {
+    width: 115px;
+    height: 41px;
+ }
+
+ .copiright-logo:hover path,
+ .copiright-logo:focus path {
+    fill: #81b3d2;
+ }
+
+ .copiright-logo:active path {
+    fill: #bdbbbc;
  }
