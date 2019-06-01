@@ -97,30 +97,32 @@
                  и мы покажем вам лучшие предложения гостиниц в седоне</p>
               <a class="button modal-search" href="#">Поиск гостиницы в Седоне</a>
             </section>
-            <section class="model-search-form">
-              <form class="hotel-search-form" action="https://echo.htmlacademy.ru" method="post">
-                <p>
-                    <label for="search-arrival-date">Дата заезда:</label>
-                    <input class="calendar" id="search-arrival-date" type="data" name="arrival-date" value="" placeholder="24 апреля 2017">
-                </p>
-                <p>
-                    <label for="search-departure-data">Дата выезда:</label>
-                    <input class="calendar" id="search-departure-data" type="data" name="departure-data" value="" placeholder="4 июля 2017">
-                </p>
-                <p>
-                    <label for="search-number-adults">Взрослые:</label>
-                    <input id="search-number-adults" type="number" name="number-adults" value="" min="1" max="100" step="1" placeholder="2">
-                </p>
-                <p>
-                    <label for="search-number-children">Дети:</label>
-                    <input id="search-number-children" type="number" name="number-children" value="" min="1" max="100" step="1" placeholder="0">
-                </p>
-                <button class="button" type="submit" name="search-button">Найти</button>
-              </form>
-            </section>
             <div class="map">
               <img src="img/map.jpg" width="1200" height="594" alt="Карта Седоны">
             </div>
+            <section class="model-search-form">
+              <form class="hotel-search-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="data-wrapper arrival-calendar">
+                    <label for="search-arrival-data">Дата заезда:</label>
+                    <input class="calendar" id="search-arrival-date" type="data" name="arrival-date" value="24 апреля 2017">
+                </p>
+                <p class="data-wrapper departure-calendar">
+                    <label for="search-departure-data">Дата выезда:</label>
+                    <input class="calendar" id="search-departure-data" type="data" name="departure-data" value="4 июля 2017">
+                </p>
+                <div class="search-number-container">
+                  <p class="number-adults-wrapper">
+                    <label for="search-number-adults">Взрослые:</label>
+                    <input id="search-number-adults" type="number" name="number-adults" value="" min="1" max="100" step="1" placeholder="2">
+                  </p>
+                  <p class="number-children-wrapper">
+                    <label for="search-number-children">Дети:</label>
+                    <input id="search-number-children" type="number" name="number-children" value="" min="1" max="100" step="1" placeholder="0">
+                  </p>
+                </div>
+                <button class="button model-search-button" type="submit" name="search-button">Найти</button>
+              </form>
+            </section>
       </main>
       <footer class="main-footer">
         <div class="main-footer-container">
