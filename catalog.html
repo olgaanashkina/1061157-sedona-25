@@ -15,10 +15,10 @@
                <img src="img/index-logo.svg" width="140" height="71" alt="Логотип города Седона" aria-label="Логотип города Седона">
            </a>
            <ul class="site-navigation">
-               <li><a href="info.html">Информация</a></li>
-               <li><a href="foto.html">Фото и видио</a></li>
-               <li><a href="map.html">Карта штата</a></li>
-               <li class="site-navigation-current"><a href="catalog.html">Гостиницы</a></li>
+               <li class="left-navigation"><a href="info.html">Информация</a></li>
+               <li class="left-navigation"><a href="foto.html">Фото и видио</a></li>
+               <li class="right-navigation"><a href="map.html">Карта штата</a></li>
+               <li class="right-navigation site-navigation-current"><a href="catalog.html">Гостиницы</a></li>
            </ul>
         </nav>
       </header>
@@ -31,15 +31,15 @@
                     <legend>Инфраструктура:</legend>
                         <ul>
                             <li class="filter-option">
-                                <input class="filter-input-checkbox" id="pool" class="visually-hidden filter-input" type="checkbox" name="pool" checked>
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="pool" type="checkbox" name="pool" checked>
                                 <label for="pool">Бассейн</label>
                             </li>
                             <li class="filter-option">
-                                <input class="filter-input-checkbox" id="parking" class="visually-hidden filter-input" type="checkbox" name="parking">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="parking" type="checkbox" name="parking">
                                 <label for="parking">Парковка</label>
                             </li>
                             <li class="filter-option">
-                                <input class="filter-input-checkbox" id="wifi" class="visually-hidden filter-input" type="checkbox" name="wi-fi">
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="wifi" type="checkbox" name="wi-fi">
                                 <label for="wifi">Wi-fi</label>
                             </li>
                         </ul>
@@ -48,15 +48,15 @@
                     <legend>Тип жилья:</legend>
                         <ul>
                             <li class="filter-option">
-                                <input class="filter-input-checkbox" id="hotel" class="visually-hidden filter-input" type="checkbox" name="hotel" checked>
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="hotel" type="checkbox" name="hotel" checked>
                                 <label for="hotel">Гостиница</label>
                             </li>
                             <li class="filter-option">
-                                <input class="filter-input-checkbox" id="motel" class="visually-hidden filter-input" type="checkbox" name="motel" checked>
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="motel" type="checkbox" name="motel" checked>
                                 <label for="motel">Мотель</label>
                             </li>
                             <li class="filter-option">
-                                <input class="filter-input-checkbox" id="apartments" class="visually-hidden filter-input" type="checkbox" name="apartments" checked>
+                                <input class="visually-hidden filter-input filter-input-checkbox" id="apartments" type="checkbox" name="apartments" checked>
                                 <label for="apartments">Апартаменты</label>
                             </li>
                         </ul>
@@ -78,7 +78,7 @@
                       <div class="range-toggle range-toggle-min"></div>
                       <div class="range-toggle range-toggle-max"></div>
                     </div>
-                <button type="submit" class="filter-button">Показать</button>
+                    <button type="submit" class="filter-button">Показать</button>
                 </div>
             </form>
           </section>

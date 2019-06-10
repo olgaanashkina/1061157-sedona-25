@@ -15,10 +15,10 @@
                  <img src="img/index-logo.svg" width="140" height="71" alt="Логотип города Седона" aria-label="Логотип города Седона">
             </a>
             <ul class="site-navigation">
-                <li><a href="info.html">Информация</a></li>
-                <li><a href="foto.html">Фото и видео</a></li>
-                <li><a href="map.html">Карта штата</a></li>
-                <li><a href="catalog.html">Гостиницы</a></li>
+                <li class="left-navigation"><a href="info.html">Информация</a></li>
+                <li class="left-navigation"><a href="foto.html">Фото и видео</a></li>
+                <li class="right-navigation"><a href="map.html">Карта штата</a></li>
+                <li class="right-navigation"><a href="catalog.html">Гостиницы</a></li>
             </ul>
          </nav>
       </header>
@@ -96,7 +96,12 @@
               <a class="button modal-search" href="modal-search.html">Поиск гостиницы в Седоне</a>
             </section>
             <div class="map">
-              <img src="img/map.jpg" width="1200" height="594" alt="Карта Седоны">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838003.0994466885!2d-112.30605379989083!3d34.87057553541878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1560112540761!5m2!1sru!2sru"
+                width="1200" height="594" allowfullscreen>
+              </iframe>
+              <div class="map-wrapper">
+                <img src="img/map.jpg" width="1200" height="594" alt="Карта Седоны">
+              </div>
               <section class="modal-search-form">
                 <form class="hotel-search-form" action="https://echo.htmlacademy.ru" method="post">
                   <div class="data-wrapper">
@@ -104,7 +109,7 @@
                       <input class="calendar" id="search-arrival-data" type="text" name="arrival-date" value="24 апреля 2017">
                       <div class="calendar-image arrival-calendar"></div>
                   </div>
-                  <div class="data-wrapper">
+                  <div class="data-wrapper departure-wrapper">
                       <label for="search-departure-data">Дата выезда:</label>
                       <input class="calendar" id="search-departure-data" type="text" name="departure-data" value="4 июля 2017">
                       <div class="calendar-image departure-calendar"></div>
@@ -168,5 +173,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
