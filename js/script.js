@@ -9,16 +9,20 @@
   var departure = modal.querySelector("[name=departure-data]");
 
 
+  if (modal.classList.contains("no-js")){
+    modal.classList.add("modal-close");
+   };
+
   search.addEventListener("click", function (evt) {
-      evt.preventDefault();
-      modal.classList.toggle("modal-close");
+    evt.preventDefault();
+    modal.classList.toggle("modal-open");
   });
 
   form.addEventListener("submit", function (evt) {
-    if (!arrival.value || !departure.value) {
-      evt.preventDefault();
-      modal.classList.remove("modal-error");
-      modal.offsetWidth = modal.offsetWidth;
-      modal.classList.add("modal-error");
-    }
+  if (!arrival.value || !departure.value) {
+    evt.preventDefault();
+    modal.classList.remove("modal-error");
+    modal.offsetWidth = modal.offsetWidth;
+    modal.classList.add("modal-error");
+  }
   });
