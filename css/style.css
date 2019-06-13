@@ -139,7 +139,7 @@ a {
   overflow: hidden;
 }
 
-.why-sedona-container {
+.why-sedona {
   min-height: 216px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,7 +431,7 @@ a {
   z-index: 1;
 }
 
-.map-wrapper {
+.map-field {
   position: absolute;
   margin: 0;
   top: 0;
@@ -1200,7 +1200,7 @@ a {
   line-height: 26px;
 }
 
-.footer-social ul {
+/*.footer-social ul {
   list-style: none;
   width: 150px;
   display: -webkit-box;
@@ -1213,7 +1213,7 @@ a {
           justify-content: space-between;
   margin: 0 auto;
   padding: 0;
-}
+}*/
 
 .social a {
   color: #ffffff;
@@ -1244,18 +1244,23 @@ a {
 
 .social {
   list-style: none;
-  margin: 0;
+  /*margin: 0;*/
   width: 400px;
   padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: center;
+  /*margin: 0 auto;
+  /*padding: 0;*/
 }
 
 .hashtag-visitsedona {
   width: 400px;
-}
-
-.footer-social {
-  width: 400px;
-  padding: 0 10px;
 }
 
 .social-button {
@@ -1270,6 +1275,7 @@ a {
           justify-content: center;
   width: 46px;
   height: 48px;
+  margin-right: 5px;
 }
 
 .social-button:active path {
