@@ -597,28 +597,29 @@ a {
 
 .calendar-image {
   position: absolute;
+  border: none;
+  background-color: transparent;
   width: 21px;
   min-height: 22px;
-  background-image: url("../img/calendar.svg");
 }
 
 .arrival-calendar {
   top: 8px;
-  right: 14px;
+  right: 18px;
 }
 
 .departure-calendar {
   top: 75px;
-  right: 14px;
+  right: 18px;
 }
 
-.calendar-image:hover,
-.calendar-image:focus {
-  background-image: url("../img/calendar-hover.svg");
+.calendar-image:hover path,
+.calendar-image:focus path {
+  fill: #000000;
 }
 
-.calendar-image:active {
-  background-image: url("../img/calendar-active.svg");
+.calendar-image:active path {
+  fill: #81b3d2;
 }
 
 .hotel-search-form input:hover {
