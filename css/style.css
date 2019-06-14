@@ -807,6 +807,14 @@ a {
   background-image: url("../img/checkbox-off.svg");
 }
 
+.filter-input-checkbox:focus + label::before {
+  background-image: url("../img/checkbox-off-focus.svg");
+}
+
+.filter-input-checkbox:checked:focus + label::before {
+  background-image: url("../img/checkbox-on-focus.svg");
+}
+
 .filter-input-checkbox:disabled + label::before {
   background-image: url("../img/checkbox-off-disabled.svg");
 }
