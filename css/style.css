@@ -237,7 +237,7 @@ a {
 
 .main-reasons-container {
   max-width: 400px;
-  margin: 0;
+  margin: 0 auto;
   padding: 27px 45px;
 }
 
@@ -246,7 +246,7 @@ a {
 }
 
 .main-reasons-caption {
-  max-width: 150px;
+  max-width: 210px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 22px;
@@ -257,12 +257,11 @@ a {
 }
 
 .main-reasons-report {
-  max-width: 280px;
-  margin: 0 15px;
+  max-width: 290px;
 }
 
 .report-bridge {
-  max-width: 330px;
+  max-width: 310px;
 }
 
 .services-sedona {
@@ -274,7 +273,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: space-between;
 }
 
 .services {
@@ -290,7 +289,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 162px 49px 60px 50px;
+  padding: 162px 65px 60px 64px;
   background-position: top 60px center;
   background-repeat: no-repeat;
 }
@@ -317,7 +316,18 @@ a {
 .services-sedona p {
   font-weight: normal;
   color: #333333;
-  max-width: 350px;
+}
+
+.service-housing p{
+  max-width: 270px;
+}
+
+.services-food p{
+  width: 300px;
+}
+
+.services-souvenirs p{
+  max-width: 280px;
 }
 
 .other-reasons-container {
@@ -797,9 +807,18 @@ a {
   background-image: url("../img/checkbox-off.svg");
 }
 
+.filter-input-checkbox:disabled + label::before {
+  background-image: url("../img/checkbox-off-disabled.svg");
+}
+
 .filter-input-checkbox:checked + label::before {
   width: 27px;
   background-image: url("../img/checkbox-on.svg");
+}
+
+.filter-input-checkbox:checked:disabled + label::before {
+  width: 27px;
+  background-image: url("../img/checkbox-on-disabled.svg");
 }
 
 .price {
@@ -857,7 +876,7 @@ a {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 32px;
   vertical-align: top;
   cursor: pointer;
 }
