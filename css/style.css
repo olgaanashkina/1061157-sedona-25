@@ -608,18 +608,18 @@ a {
   position: absolute;
   border: none;
   background-color: transparent;
-  width: 21px;
+  width: 27px;
   min-height: 22px;
 }
 
 .arrival-calendar {
   top: 8px;
-  right: 18px;
+  right: 17px;
 }
 
 .departure-calendar {
   top: 75px;
-  right: 18px;
+  right: 17px;
 }
 
 .calendar-image:hover path,
@@ -660,7 +660,7 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 345px;
-  padding: 7px 10px;
+  padding: 7px 0 7px 10px;
 }
 
 .departure-wrapper {
@@ -695,8 +695,7 @@ a {
 .search-number-container input{
   width: 42px;
   text-align: center;
-  padding-top: 7px;
-  padding-bottom: 6px;
+  height: 38px;
 }
 
 .number-children-wrapper label {
@@ -706,23 +705,23 @@ a {
 }
 
 .search-number-container input[type="number"]::-webkit-input-placeholder {
-  font: inherit;
   color: #000000;
+  opacity: 1;
 }
 
 .search-number-container input[type="number"]::-ms-input-placeholder {
-  font: inherit;
   color: #000000;
+  opacity: 1;
 }
 
 .search-number-container input[type="number"]::-moz-placeholder {
-  font: inherit;
   color: #000000;
+  opacity: 1;
 }
 
 .search-number-container input[type="number"]::placeholder {
-  font: inherit;
   color: #000000;
+  opacity: 1;
 }
 
 .search-number-container input[type=number]::-webkit-inner-spin-button,
