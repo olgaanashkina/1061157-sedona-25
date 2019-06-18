@@ -706,6 +706,22 @@ a {
 }
 
 .search-number-container input[type="number"]::-webkit-input-placeholder {
+  font: inherit;
+  color: #000000;
+}
+
+.search-number-container input[type="number"]::-ms-input-placeholder {
+  font: inherit;
+  color: #000000;
+}
+
+.search-number-container input[type="number"]::-moz-placeholder {
+  font: inherit;
+  color: #000000;
+}
+
+.search-number-container input[type="number"]::placeholder {
+  font: inherit;
   color: #000000;
 }
 
