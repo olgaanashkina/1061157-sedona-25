@@ -1,5 +1,3 @@
-'use strict'
-
 var search = document.querySelector(".modal-search");
 var modal = document.querySelector(".modal-search-form");
 var form = modal.querySelector("form");
@@ -22,7 +20,7 @@ adults.addEventListener("click", function (evt) {
 
 form.addEventListener("submit", function (evt) {
   evt.preventDefault();
-  if (!arrival.value || !departure.value || adults < "1") {
+  if (!arrival.value || !departure.value ) {
     modal.classList.remove("modal-error");
     modal.offsetWidth = modal.offsetWidth;
     modal.classList.add("modal-error");
