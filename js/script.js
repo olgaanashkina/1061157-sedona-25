@@ -1,28 +1,30 @@
-  var search = document.querySelector(".modal-search");
+'use strict'
 
-  var modal = document.querySelector(".modal-search-form");
+var search = document.querySelector(".modal-search");
+var modal = document.querySelector(".modal-search-form");
+var form = modal.querySelector("form");
+var arrival = modal.querySelector("[name=arrival-date]");
+var departure = modal.querySelector("[name=departure-data]");
+var adults = modal.querySelector("[name=number-adults]");
 
-  var form = modal.querySelector("form");
+if (modal.classList.contains("no-js")){
+  modal.classList.add("modal-close");
+};
 
-  var arrival = modal.querySelector("[name=arrival-date]");
+search.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  modal.classList.toggle("modal-open");
+});
 
-  var departure = modal.querySelector("[name=departure-data]");
+adults.addEventListener("click", function (evt) {
+  evt.preventDefault();
+})
 
-
-  if (modal.classList.contains("no-js")){
-    modal.classList.add("modal-close");
-   };
-
-  search.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    modal.classList.toggle("modal-open");
-  });
-
-  form.addEventListener("submit", function (evt) {
-  if (!arrival.value || !departure.value) {
-    evt.preventDefault();
+form.addEventListener("submit", function (evt) {
+  evt.preventDefault();
+  if (!arrival.value || !departure.value || adults < "1") {
     modal.classList.remove("modal-error");
     modal.offsetWidth = modal.offsetWidth;
     modal.classList.add("modal-error");
   }
-  });
+});
