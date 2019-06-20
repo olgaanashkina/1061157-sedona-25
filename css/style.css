@@ -826,21 +826,13 @@ a {
 	background-image: url("../img/checkbox-off.svg");
 }
 
-.filter-input-checkbox:focus+label::before {
-	background-image: url("../img/checkbox-off-focus.svg");
-}
-
-.filter-input-checkbox:checked:focus+label::before {
-	background-image: url("../img/checkbox-on-focus.svg");
+.filter-input-checkbox:checked+label::before {
+	width: 27px;
+	background-image: url("../img/checkbox-on.svg");
 }
 
 .filter-input-checkbox:disabled+label::before {
 	background-image: url("../img/checkbox-off-disabled.svg");
-}
-
-.filter-input-checkbox:checked+label::before {
-	width: 27px;
-	background-image: url("../img/checkbox-on.svg");
 }
 
 .filter-input-checkbox:checked:disabled+label::before {
@@ -903,7 +895,7 @@ a {
 .price-controls label {
 	display: inline-block;
 	font-size: 14px;
-	line-height: 32px;
+	line-height: 28px;
 	vertical-align: middle;
 	cursor: pointer;
 }
