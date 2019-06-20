@@ -429,6 +429,7 @@ a {
 
 .modal-search {
 	display: inline-block;
+  vertical-align: middle;
 	width: 568px;
 	padding: 30px 0;
 }
@@ -762,6 +763,7 @@ a {
 .modal-search-button {
 	width: 458px;
 	display: inline-block;
+  vertical-align: middle;
 	padding: 16px 0;
 }
 
